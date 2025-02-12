@@ -1,0 +1,1 @@
+spark-submit   --master spark://localhost:7077   --jars $(echo ./jars/*.jar | tr ' ' ',')   --deploy-mode client   testspark_minio.py
